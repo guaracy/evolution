@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://guaracy.github.io/evolution/</loc>
+         <loc>https://github.com/guaracy/evolution/</loc>
          <lastmod>2021-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guaracy.github.io/evolution/langs/unicon/</loc>
+         <loc>https://github.com/guaracy/evolution/langs/unicon/</loc>
          <lastmod>2021-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
