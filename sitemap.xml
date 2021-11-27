@@ -6,7 +6,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/guaracy/evolution/langs/abc/</loc>
+         <lastmod>2021-11-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/guaracy/evolution/langs/cobol/</loc>
+         <lastmod>2021-11-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/guaracy/evolution/langs/geral/</loc>
+         <lastmod>2021-11-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/guaracy/evolution/langs/rebol/</loc>
          <lastmod>2021-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>

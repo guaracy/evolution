@@ -304,7 +304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../abc.md" class="md-nav__link">
+      <a href="../abc/" class="md-nav__link">
         ABC
       </a>
     </li>
@@ -318,7 +318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cobol.md" class="md-nav__link">
+      <a href="../cobol/" class="md-nav__link">
         COBOL
       </a>
     </li>
@@ -332,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rebol.md" class="md-nav__link">
+      <a href="../rebol/" class="md-nav__link">
         REBOL/Red
       </a>
     </li>
@@ -377,7 +377,7 @@
                 
                 
                 <h1 id="icon-e-unicon">Icon e Unicon</h1>
-<p>Basicamente <a href="https://www.cs.arizona.edu/icon">Icon</a> foi baseada em SNOBOL e <a href="https://unicon.sourceforge.io/">Unicon</a> foi baseada em Icon com OO. Mas vamos ao que interessa.</p>
+<p>Basicamente <a href="https://www.cs.arizona.edu/icon">Icon</a> (1977) foi baseada em SNOBOL (1962) e <a href="https://unicon.sourceforge.io/">Unicon</a>(1996) foi baseada em Icon com OO. Mas vamos ao que interessa.</p>
 <h1 id="sintaxe">Sintaxe</h1>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
@@ -407,12 +407,17 @@
 <p>Unicon utiliza a notação [base][r][número] sendo <strong>base</strong> um número decimal entre 2 e 36, seguido de <strong>R</strong> ou <strong>r</strong> e o número propriamente dito que deve respeitar a base [0..9 A..Z a..z]. A mas não se usa todas as bases. Use apenas as desejadas. </p>
 <h1 id="unidades-de-media">Unidades de media</h1>
 <p>Unicon possui alguns sufixos como K (kilo), M (mega), G (giga), T (tera) e P (peta). O problema é que são multiplos de 1024. </p>
-<div class="highlight"><pre><span></span><code><span class="kd">procedure</span> <span class="nf">main</span><span class="p">()</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">procedure</span> <span class="nf">main</span><span class="p">()</span>
     <span class="nf">write</span><span class="p">(</span><span class="mi">1K</span><span class="p">)</span>
     <span class="nf">write</span><span class="p">(</span><span class="mi">3K</span><span class="p">)</span>
     <span class="nf">write</span><span class="p">(</span><span class="mi">5M</span><span class="p">)</span>
 <span class="kr">end</span>
 </code></pre></div>
+</td></tr></table>
 <p>e o resultado é:</p>
 <div class="highlight"><pre><span></span><code><span class="m">1024</span>
 <span class="m">3072</span>
@@ -427,6 +432,35 @@
 <p>Ah, mas vai dar muito trabalho para quem projetar o compilador. Besteira. Você prefere ter mais trabalho para desenvolver o sistema do que quem vai desenvolver o compilador. Pode ter certeza que o computador não vai se importar em alguns passos  a mais para entender o que você está querendo fazer. Sem contar que é muito mais fácil você errar do que o computador trabalhar. Ah, mas não tem problema. Besteira novamente. Pelo menos até a empresa perder 125 milhoes de dólares por <a href="http://www.mundodametrologia.com.br/2014/07/confusao-de-unidades-causou-perda-da.html">erros bestas</a> que poderiam ser evitados com facilidade..</p>
 <h1 id="conversao-de-string-para-numero">Conversão de string para número</h1>
 <p>É possível uma operação do tipo <code class="highlight"><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="s">&quot;14&quot;</span></code> o que retorna <strong>28</strong> mas a string deve ser um valor numérico válido. Não é tão inconsequente como php que aceitaria <code class="highlight"><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="s">&quot;14abc&quot;</span></code>. Se retornasse <code class="highlight"><span class="s">&quot;14abc14abc&quot;</span></code> seria mais lógico.</p>
+<h1 id="resultado-de-expressoes-logicas">Resultado de expressões lógicas</h1>
+<p>Muitas vezes precisamos colocar um valor em determinada variável baseado em determinadas condições. É mais prático (e considero mais legível) utilizando o formato <code class="highlight"><span class="n">a</span> <span class="o">:=</span> <span class="kr">if</span> <span class="n">cond</span> <span class="kr">then</span> <span class="n">v1</span> <span class="kr">else</span> <span class="n">v2</span></code> do que usando <code class="highlight"><span class="kr">if</span> <span class="n">cond</span> <span class="kr">then</span> <span class="n">a</span><span class="o">:=</span><span class="n">v1</span> <span class="kr">else</span> <span class="n">a</span><span class="o">:=</span><span class="n">v2</span></code></p>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">procedure</span> <span class="nf">main</span><span class="p">()</span>
+    <span class="n">a</span> <span class="o">:=</span> <span class="kr">if</span> <span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="kr">then</span> <span class="mi">5</span> <span class="kr">else</span> <span class="mi">6</span>
+    <span class="n">b</span> <span class="o">:=</span> <span class="kr">case</span> <span class="n">a</span> <span class="kr">of</span> <span class="p">{</span>
+        <span class="mi">5</span> <span class="p">:</span> <span class="s">&quot;cinco&quot;</span>
+        <span class="mi">6</span> <span class="p">:</span> <span class="s">&quot;seis&quot;</span>
+        <span class="kr">default</span> <span class="p">:</span> <span class="s">&quot;indefinido&quot;</span>
+    <span class="p">}</span>
+    <span class="nf">write</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+    <span class="nf">write</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="kr">end</span>
+</code></pre></div>
+</td></tr></table>
+Note que no <strong>case</strong> foram utilizadas chaves para abrir e fechar o bloco. Poderiam ter sido evitadas se tivessem escolhido um design diferente. Volto ao assunto na linguagem ABC.</p>
+<h1 id="finalmente">Finalmente</h1>
+<p>Depois retorno para escrever sobre algumas coisas na linguagem que também são interessantes como as repetições (every), generators. A parte de processamento de cadeias de caracteres é herdada do SNOBOL é muito boa e ainda possui ER. O funcionamento baseado em sucesso/falha. A <a href="https://www2.cs.arizona.edu/icon/library/ipl.htm">biblioteca</a> também tem bastante coisa. </p>
+<p>No <a href="http://rosettacode.org/wiki/Category:Icon">Rosetta Code</a> existem diversos exempĺos para avaliar. É claro que alguns programas são mais fáceis de entender que outros.</p>
+<p>Também é possível baixar diversos <a href="https://www2.cs.arizona.edu/icon/books.htm">Livros</a> sobre Icon.</p>
+<p><a href="http://rosettacode.org/wiki/Combinations_and_permutations#Icon_and_Unicon"></a></p>
                 
               
               
@@ -460,6 +494,21 @@
           </div>
         </a>
       
+      
+        
+        <a href="../abc/" class="md-footer__link md-footer__link--next" aria-label="Next: ABC" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              ABC
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
