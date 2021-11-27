@@ -1,0 +1,40 @@
+site_name: evolution
+site_url: https://github.com/guaracy/evolution
+site_autor: Guaracy Monteiro
+
+#repo_name: guaracy/guaracy.github.io/evolution
+#repo_url: https://github.com/guaracy/guaracy.github.io/evolution
+
+theme:
+  name: material
+  locale: pt_BR
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets  
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/guaracy/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/guaracybm
+
+
+nav:
+    - Início:               index.md
+    - Linguagens:           
+      - Introdução:         langs/geral.md
+      - icon/unicon:        langs/unicon.md
+      - ABC:                langs/abc.md
+      - COBOL:              langs/cobol.md
+      - REBOL/Red:          langs/rebol.md
+
