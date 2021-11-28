@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/guaracy/evolution/langs/futuro/</loc>
+         <lastmod>2021-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/guaracy/evolution/langs/geral/</loc>
          <lastmod>2021-11-28</lastmod>
          <changefreq>daily</changefreq>
@@ -32,6 +37,11 @@
     </url>
     <url>
          <loc>https://github.com/guaracy/evolution/langs/rebol/</loc>
+         <lastmod>2021-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/guaracy/evolution/langs/solucao/</loc>
          <lastmod>2021-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
