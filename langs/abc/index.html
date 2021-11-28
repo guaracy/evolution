@@ -8,6 +8,8 @@
       
       
       
+        <meta name="author" content="Guaracy Monteiro">
+      
       
         <link rel="canonical" href="https://github.com/guaracy/evolution/langs/abc/">
       
@@ -16,7 +18,7 @@
     
     
       
-        <title>ABC - evolution</title>
+        <title>ABC - Evolution</title>
       
     
     
@@ -71,7 +73,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="evolution" class="md-header__button md-logo" aria-label="evolution" data-md-component="logo">
+    <a href="../.." title="Evolution" class="md-header__button md-logo" aria-label="Evolution" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -84,7 +86,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            evolution
+            Evolution
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -155,7 +157,7 @@
 
   <li class="md-tabs__item">
     <a href="../.." class="md-tabs__link">
-      Início
+      Evolution
     </a>
   </li>
 
@@ -199,13 +201,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="evolution" class="md-nav__button md-logo" aria-label="evolution" data-md-component="logo">
+    <a href="../.." title="Evolution" class="md-nav__button md-logo" aria-label="Evolution" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    evolution
+    Evolution
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -219,7 +221,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Início
+        Evolution
       </a>
     </li>
   
@@ -333,6 +335,48 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mumps/" class="md-nav__link">
+        MUMPS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../beads/" class="md-nav__link">
+        Beads
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid/" class="md-nav__link">
+        VID
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -355,7 +399,7 @@
                   <h1>ABC</h1>
                 
                 <p>ABC</p>
-<p>A linguagem <a href="https://homepages.cwi.nl/~steven/abc/">ABC</a>(1987) baseada em ALGO e, tendo como sua filha mais famosa Python.</p>
+<p>A linguagem <a href="https://homepages.cwi.nl/~steven/abc/">ABC</a>(1987) baseada em ALGOL (1973) e, tendo como sua filha mais famosa Python.</p>
 <p>A grande sacada da linguagem foi a endentação dos blocos, eliminando chaves e outras frescuras como begin end. COBOL até tinha alguns detalhes de endentação para o código mas não tão bons como ABC. Tirando algumas linguagens onde a endentação não faria muito sentido, todo o programador endenta a sua linguagem. O mais lógico seria usar esta endentação para uma finalidade mais nobre.</p>
 <p>Como não existe um salientador de sintaxe para ABC no pygments (utilizado aqui), vou utilizar outra linguagem para ver como funciona. Apesar de ser interessante, o ambiente de desenvolvimento da linguagem não usa processador de texto para os programas. É mais como um REPL e imagens. Mas não vamos falar sobre isto agora. Um exemplo que conta na página:</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
@@ -381,6 +425,21 @@
 </td></tr></table>
 <p>Basicamente, quando iniciamos um novo bloco é utilizado o dois pontos <strong>:</strong>. O bloco é então endentado e, quando terminamos a endentação, o bloco é encerrado sem a necessidade de caracteres especiais.</p>
 <p>Um detalhe interessante é o select da linha 6. A opções também aceitam comparações como <code>guess &lt; number</code>. </p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c">HOW TO</span> <span class="nv">PRINT</span> <span class="nv">CELSIUS</span> <span class="kp">FROM</span> <span class="nv">a</span> <span class="kp">TO</span> <span class="nv">b</span><span class="p">:</span>
+<span class="c">   PUT</span> <span class="nv">a</span><span class="p">,</span> <span class="nv">b</span> <span class="kp">IN</span> <span class="nv">lo</span><span class="p">,</span> <span class="nv">hi</span>
+<span class="c">   IF </span><span class="nv">lo</span> <span class="o">&gt;</span> <span class="nv">hi</span><span class="p">:</span>
+<span class="c">      </span><span class="nv">PUT</span> <span class="nv">hi</span><span class="p">,</span> <span class="nv">lo</span> <span class="kp">IN</span> <span class="nv">lo</span><span class="p">,</span> <span class="nv">hi</span> <span class="err">\</span><span class="nv">Swap</span> <span class="nv">hi</span> <span class="ow">and</span> <span class="nv">lo</span>
+<span class="c">   FOR</span> <span class="nv">f</span> <span class="kp">IN </span><span class="err">{</span><span class="nv">lo</span><span class="p">..</span><span class="nv">hi</span><span class="err">}</span><span class="p">:</span>
+<span class="c">      </span><span class="nv">PUT</span> <span class="p">(</span><span class="nv">f-32</span><span class="p">)</span><span class="o">*</span><span class="mi">5</span><span class="o">/</span><span class="mi">9 </span><span class="kp">IN</span> <span class="nv">c</span>
+<span class="c">      </span><span class="kr">WRITE</span> <span class="nv">f</span><span class="p">,</span> <span class="s2">&quot;Fahrenheit =&quot;</span><span class="p">,</span> <span class="mi">2 </span><span class="nv">round</span> <span class="nv">c</span><span class="p">,</span> <span class="s2">&quot;Celsius&quot;</span> <span class="o">/</span>
+</code></pre></div>
+</td></tr></table>
                 
               
               

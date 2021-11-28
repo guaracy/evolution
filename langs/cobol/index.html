@@ -8,6 +8,8 @@
       
       
       
+        <meta name="author" content="Guaracy Monteiro">
+      
       
         <link rel="canonical" href="https://github.com/guaracy/evolution/langs/cobol/">
       
@@ -16,7 +18,7 @@
     
     
       
-        <title>COBOL - evolution</title>
+        <title>COBOL - Evolution</title>
       
     
     
@@ -62,6 +64,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#cobol" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -71,7 +78,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="evolution" class="md-header__button md-logo" aria-label="evolution" data-md-component="logo">
+    <a href="../.." title="Evolution" class="md-header__button md-logo" aria-label="Evolution" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -84,7 +91,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            evolution
+            Evolution
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -155,7 +162,7 @@
 
   <li class="md-tabs__item">
     <a href="../.." class="md-tabs__link">
-      Início
+      Evolution
     </a>
   </li>
 
@@ -199,13 +206,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="evolution" class="md-nav__button md-logo" aria-label="evolution" data-md-component="logo">
+    <a href="../.." title="Evolution" class="md-nav__button md-logo" aria-label="Evolution" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    evolution
+    Evolution
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -219,7 +226,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Início
+        Evolution
       </a>
     </li>
   
@@ -309,10 +316,124 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          COBOL
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         COBOL
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#verbosidade" class="md-nav__link">
+    Verbosidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bd" class="md-nav__link">
+    BD
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#endentacao" class="md-nav__link">
+    Endentação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nomes-condicionais" class="md-nav__link">
+    Nomes condicionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compartilhamento-de-memoria" class="md-nav__link">
+    Compartilhamento de memória
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campos-iguais-de-registros-diferentes" class="md-nav__link">
+    Campos iguais de registros diferentes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lacos" class="md-nav__link">
+    Laços
+  </a>
+  
+    <nav class="md-nav" aria-label="Laços">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repeat" class="md-nav__link">
+    REPEAT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for" class="md-nav__link">
+    FOR
+  </a>
+  
+    <nav class="md-nav" aria-label="FOR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-after" class="md-nav__link">
+    FOR AFTER
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#while-repeat" class="md-nav__link">
+    WHILE REPEAT
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -333,6 +454,48 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mumps/" class="md-nav__link">
+        MUMPS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../beads/" class="md-nav__link">
+        Beads
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid/" class="md-nav__link">
+        VID
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -346,529 +509,377 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#verbosidade" class="md-nav__link">
+    Verbosidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bd" class="md-nav__link">
+    BD
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#endentacao" class="md-nav__link">
+    Endentação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nomes-condicionais" class="md-nav__link">
+    Nomes condicionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compartilhamento-de-memoria" class="md-nav__link">
+    Compartilhamento de memória
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campos-iguais-de-registros-diferentes" class="md-nav__link">
+    Campos iguais de registros diferentes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lacos" class="md-nav__link">
+    Laços
+  </a>
+  
+    <nav class="md-nav" aria-label="Laços">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repeat" class="md-nav__link">
+    REPEAT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for" class="md-nav__link">
+    FOR
+  </a>
+  
+    <nav class="md-nav" aria-label="FOR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-after" class="md-nav__link">
+    FOR AFTER
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#while-repeat" class="md-nav__link">
+    WHILE REPEAT
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>COBOL</h1>
-                
-                <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">  1</span>
-<span class="normal">  2</span>
-<span class="normal">  3</span>
-<span class="normal">  4</span>
-<span class="normal">  5</span>
-<span class="normal">  6</span>
-<span class="normal">  7</span>
-<span class="normal">  8</span>
-<span class="normal">  9</span>
-<span class="normal"> 10</span>
-<span class="normal"> 11</span>
-<span class="normal"> 12</span>
-<span class="normal"> 13</span>
-<span class="normal"> 14</span>
-<span class="normal"> 15</span>
-<span class="normal"> 16</span>
-<span class="normal"> 17</span>
-<span class="normal"> 18</span>
-<span class="normal"> 19</span>
-<span class="normal"> 20</span>
-<span class="normal"> 21</span>
-<span class="normal"> 22</span>
-<span class="normal"> 23</span>
-<span class="normal"> 24</span>
-<span class="normal"> 25</span>
-<span class="normal"> 26</span>
-<span class="normal"> 27</span>
-<span class="normal"> 28</span>
-<span class="normal"> 29</span>
-<span class="normal"> 30</span>
-<span class="normal"> 31</span>
-<span class="normal"> 32</span>
-<span class="normal"> 33</span>
-<span class="normal"> 34</span>
-<span class="normal"> 35</span>
-<span class="normal"> 36</span>
-<span class="normal"> 37</span>
-<span class="normal"> 38</span>
-<span class="normal"> 39</span>
-<span class="normal"> 40</span>
-<span class="normal"> 41</span>
-<span class="normal"> 42</span>
-<span class="normal"> 43</span>
-<span class="normal"> 44</span>
-<span class="normal"> 45</span>
-<span class="normal"> 46</span>
-<span class="normal"> 47</span>
-<span class="normal"> 48</span>
-<span class="normal"> 49</span>
-<span class="normal"> 50</span>
-<span class="normal"> 51</span>
-<span class="normal"> 52</span>
-<span class="normal"> 53</span>
-<span class="normal"> 54</span>
-<span class="normal"> 55</span>
-<span class="normal"> 56</span>
-<span class="normal"> 57</span>
-<span class="normal"> 58</span>
-<span class="normal"> 59</span>
-<span class="normal"> 60</span>
-<span class="normal"> 61</span>
-<span class="normal"> 62</span>
-<span class="normal"> 63</span>
-<span class="normal"> 64</span>
-<span class="normal"> 65</span>
-<span class="normal"> 66</span>
-<span class="normal"> 67</span>
-<span class="normal"> 68</span>
-<span class="normal"> 69</span>
-<span class="normal"> 70</span>
-<span class="normal"> 71</span>
-<span class="normal"> 72</span>
-<span class="normal"> 73</span>
-<span class="normal"> 74</span>
-<span class="normal"> 75</span>
-<span class="normal"> 76</span>
-<span class="normal"> 77</span>
-<span class="normal"> 78</span>
-<span class="normal"> 79</span>
-<span class="normal"> 80</span>
-<span class="normal"> 81</span>
-<span class="normal"> 82</span>
-<span class="normal"> 83</span>
-<span class="normal"> 84</span>
-<span class="normal"> 85</span>
-<span class="normal"> 86</span>
-<span class="normal"> 87</span>
-<span class="normal"> 88</span>
-<span class="normal"> 89</span>
-<span class="normal"> 90</span>
-<span class="normal"> 91</span>
-<span class="normal"> 92</span>
-<span class="normal"> 93</span>
-<span class="normal"> 94</span>
-<span class="normal"> 95</span>
-<span class="normal"> 96</span>
-<span class="normal"> 97</span>
-<span class="normal"> 98</span>
-<span class="normal"> 99</span>
-<span class="normal">100</span>
-<span class="normal">101</span>
-<span class="normal">102</span>
-<span class="normal">103</span>
-<span class="normal">104</span>
-<span class="normal">105</span>
-<span class="normal">106</span>
-<span class="normal">107</span>
-<span class="normal">108</span>
-<span class="normal">109</span>
-<span class="normal">110</span>
-<span class="normal">111</span>
-<span class="normal">112</span>
-<span class="normal">113</span>
-<span class="normal">114</span>
-<span class="normal">115</span>
-<span class="normal">116</span>
-<span class="normal">117</span>
-<span class="normal">118</span>
-<span class="normal">119</span>
-<span class="normal">120</span>
-<span class="normal">121</span>
-<span class="normal">122</span>
-<span class="normal">123</span>
-<span class="normal">124</span>
-<span class="normal">125</span>
-<span class="normal">126</span>
-<span class="normal">127</span>
-<span class="normal">128</span>
-<span class="normal">129</span>
-<span class="normal">130</span>
-<span class="normal">131</span>
-<span class="normal">132</span>
-<span class="normal">133</span>
-<span class="normal">134</span>
-<span class="normal">135</span>
-<span class="normal">136</span>
-<span class="normal">137</span>
-<span class="normal">138</span>
-<span class="normal">139</span>
-<span class="normal">140</span>
-<span class="normal">141</span>
-<span class="normal">142</span>
-<span class="normal">143</span>
-<span class="normal">144</span>
-<span class="normal">145</span>
-<span class="normal">146</span>
-<span class="normal">147</span>
-<span class="normal">148</span>
-<span class="normal">149</span>
-<span class="normal">150</span>
-<span class="normal">151</span>
-<span class="normal">152</span>
-<span class="normal">153</span>
-<span class="normal">154</span>
-<span class="normal">155</span>
-<span class="normal">156</span>
-<span class="normal">157</span>
-<span class="normal">158</span>
-<span class="normal">159</span>
-<span class="normal">160</span>
-<span class="normal">161</span>
-<span class="normal">162</span>
-<span class="normal">163</span>
-<span class="normal">164</span>
-<span class="normal">165</span>
-<span class="normal">166</span>
-<span class="normal">167</span>
-<span class="normal">168</span>
-<span class="normal">169</span>
-<span class="normal">170</span>
-<span class="normal">171</span>
-<span class="normal">172</span>
-<span class="normal">173</span>
-<span class="normal">174</span>
-<span class="normal">175</span>
-<span class="normal">176</span>
-<span class="normal">177</span>
-<span class="normal">178</span>
-<span class="normal">179</span>
-<span class="normal">180</span>
-<span class="normal">181</span>
-<span class="normal">182</span>
-<span class="normal">183</span>
-<span class="normal">184</span>
-<span class="normal">185</span>
-<span class="normal">186</span>
-<span class="normal">187</span>
-<span class="normal">188</span>
-<span class="normal">189</span>
-<span class="normal">190</span>
-<span class="normal">191</span>
-<span class="normal">192</span>
-<span class="normal">193</span>
-<span class="normal">194</span>
-<span class="normal">195</span>
-<span class="normal">196</span>
-<span class="normal">197</span>
-<span class="normal">198</span>
-<span class="normal">199</span>
-<span class="normal">200</span>
-<span class="normal">201</span>
-<span class="normal">202</span>
-<span class="normal">203</span>
-<span class="normal">204</span>
-<span class="normal">205</span>
-<span class="normal">206</span>
-<span class="normal">207</span>
-<span class="normal">208</span>
-<span class="normal">209</span>
-<span class="normal">210</span>
-<span class="normal">211</span>
-<span class="normal">212</span>
-<span class="normal">213</span>
-<span class="normal">214</span>
-<span class="normal">215</span>
-<span class="normal">216</span>
-<span class="normal">217</span>
-<span class="normal">218</span>
-<span class="normal">219</span>
-<span class="normal">220</span>
-<span class="normal">221</span>
-<span class="normal">222</span>
-<span class="normal">223</span>
-<span class="normal">224</span>
-<span class="normal">225</span>
-<span class="normal">226</span>
-<span class="normal">227</span>
-<span class="normal">228</span>
-<span class="normal">229</span>
-<span class="normal">230</span>
-<span class="normal">231</span>
-<span class="normal">232</span>
-<span class="normal">233</span>
-<span class="normal">234</span>
-<span class="normal">235</span>
-<span class="normal">236</span>
-<span class="normal">237</span>
-<span class="normal">238</span>
-<span class="normal">239</span>
-<span class="normal">240</span>
-<span class="normal">241</span>
-<span class="normal">242</span>
-<span class="normal">243</span>
-<span class="normal">244</span>
-<span class="normal">245</span>
-<span class="normal">246</span>
-<span class="normal">247</span>
-<span class="normal">248</span>
-<span class="normal">249</span>
-<span class="normal">250</span>
-<span class="normal">251</span>
-<span class="normal">252</span>
-<span class="normal">253</span>
-<span class="normal">254</span>
-<span class="normal">255</span>
-<span class="normal">256</span>
-<span class="normal">257</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="hll"><span class="c">      </span> <span class="kr">IDENTIFICATION</span> <span class="kr">DIVISION</span><span class="p">.</span>
-</span><span class="c">      </span> <span class="kr">PROGRAM-ID</span><span class="p">.</span> <span class="nv">CLIENTES</span><span class="p">.</span>
-
-<span class="hll"><span class="c">      </span> <span class="kr">ENVIRONMENT</span> <span class="kr">DIVISION</span><span class="p">.</span>
-</span><span class="c">      </span> <span class="kr">INPUT-OUTPUT</span> <span class="kr">SECTION</span><span class="p">.</span>
-<span class="c">      </span> <span class="kr">FILE-CONTROL</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kp">SELECT</span> <span class="nv">FILE1</span> <span class="kp">ASSIGN</span> <span class="kp">TO</span> <span class="kp">DISK</span>
-<span class="kp">              </span> <span class="kp">ORGANIZATION</span> <span class="kp">IS</span> <span class="kp">INDEXED</span>
-<span class="kp">              </span> <span class="kp">ACCESS</span> <span class="kp">MODE</span> <span class="kp">IS</span> <span class="kp">RANDOM</span>
-<span class="kp">              </span> <span class="kr">FILE</span> <span class="kp">STATUS</span> <span class="kp">IS</span> <span class="nv">FS-STAT</span>
-<span class="c">      </span>         <span class="kp">RECORD</span> <span class="kp">KEY</span> <span class="kp">IS</span> <span class="nv">FS-KEY</span><span class="p">.</span>
-
-<span class="hll"><span class="c">      </span> <span class="kr">DATA</span> <span class="kr">DIVISION</span><span class="p">.</span>
-</span><span class="c">      </span> <span class="kr">FILE</span> <span class="kr">SECTION</span><span class="p">.</span>
-<span class="c">      </span> <span class="kr">FD</span> <span class="nv">FILE1</span> <span class="kp">VALUE</span> <span class="kp">OF</span> <span class="kp">FILE-ID</span> <span class="kp">IS </span><span class="s2">&quot;clientes.dat&quot;</span><span class="p">.</span>
-<span class="c">      </span> <span class="mi">01 </span><span class="nv">FILE1-REC</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">FS-KEY</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="nv">FS-FONE</span> <span class="kt">PIC 9(09)</span> <span class="kp">BLANK</span> <span class="kp">WHEN</span> <span class="no">ZEROS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">FS-NOME</span>     <span class="kt">PIC X(40)</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">FS-ENDERECO</span> <span class="kt">PIC X(40)</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">FILLER     </span> <span class="kt">PIC X(20)</span><span class="p">.</span>
-
-<span class="hll"><span class="c">      </span> <span class="kr">WORKING-STORAGE</span> <span class="kr">SECTION</span><span class="p">.</span>
-</span>
-<span class="c">      </span> <span class="mi">01 </span><span class="nv">WS-MODULO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">FILLER</span> <span class="kt">PIC X(11)</span> <span class="kp">VALUE </span><span class="s2">&quot;CLIENTES -&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">WS-OP</span> <span class="kt">PIC X(20)</span> <span class="kp">VALUE</span> <span class="no">SPACES</span><span class="p">.</span>
-
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-OPCAO</span> <span class="kt">PIC X</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">E-INCLUIR</span>   <span class="kp">VALUE</span> <span class="kp">IS </span><span class="s2">&quot;1&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">E-CONSULTAR</span> <span class="kp">VALUE</span> <span class="kp">IS </span><span class="s2">&quot;2&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">E-ALTERAR</span>   <span class="kp">VALUE</span> <span class="kp">IS </span><span class="s2">&quot;3&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">E-EXCLUIR</span>   <span class="kp">VALUE</span> <span class="kp">IS </span><span class="s2">&quot;4&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">E-ENCERRAR</span>  <span class="kp">VALUE</span> <span class="kp">IS </span><span class="s2">&quot;X&quot;</span> <span class="s2">&quot;x&quot;</span><span class="p">.</span>
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">FS-STAT</span> <span class="kt">PIC 9(02)</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">FS-OK</span>         <span class="kp">VALUE</span> <span class="no">ZEROS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">FS-CANCELA</span>    <span class="kp">VALUE</span> <span class="mi">99</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">FS-NAO-EXISTE</span> <span class="kp">VALUE</span> <span class="mi">35</span><span class="p">.</span>
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-ERRO</span> <span class="kt">PIC X</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">88 </span><span class="nv">E-SIM</span> <span class="kp">VALUES</span> <span class="kp">ARE </span><span class="s2">&quot;S&quot;</span> <span class="s2">&quot;s&quot;</span><span class="p">.</span>
-
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-NUML</span> <span class="kt">PIC 999</span><span class="p">.</span>
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-NUMC</span> <span class="kt">PIC 999</span><span class="p">.</span>       
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">COR-FUNDO</span> <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">1</span><span class="p">.</span>
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">COR-FRENTE</span> <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">6</span><span class="p">.</span>
-
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-STATUS</span> <span class="kt">PIC X(30)</span><span class="p">.</span>
-<span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-MSGERRO</span> <span class="kt">PIC X(80)</span><span class="p">.</span>
-
-<span class="c">      </span> <span class="kp">COPY</span> <span class="nv">screenio</span><span class="p">.</span>
-
-<span class="hll"><span class="c">      </span> <span class="kr">SCREEN</span> <span class="kr">SECTION</span><span class="p">.</span>
-</span><span class="c">      </span> <span class="mi">01 </span><span class="nv">SS-CLS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">SS-FILLER</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">BLANK</span> <span class="kr">SCREEN</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">LINE</span> <span class="mi">01 </span><span class="kp">COLUMN</span> <span class="mi">01 </span><span class="kp">ERASE</span> <span class="kp">EOL</span>
-<span class="kp">                 </span> <span class="kp">BACKGROUND-COLOR</span> <span class="nv">COR-FUNDO</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">LINE</span> <span class="nv">WS-NUML</span> <span class="kp">COLUMN</span> <span class="mi">01 </span><span class="kp">ERASE</span> <span class="kp">EOL</span>
-<span class="kp">                 </span> <span class="kp">BACKGROUND-COLOR</span> <span class="nv">COR-FUNDO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">SS-CABECALHO</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">LINE</span> <span class="mi">01 </span><span class="kp">COLUMN</span> <span class="mi">02 </span><span class="kt">PIC X(31)</span> <span class="kp">FROM</span> <span class="nv">WS-MODULO</span>
-<span class="c">      </span>            <span class="kp">HIGHLIGHT</span> <span class="kp">FOREGROUND-COLOR</span> <span class="nv">COR-FRENTE</span>
-<span class="c">      </span>            <span class="kp">BACKGROUND-COLOR</span> <span class="nv">COR-FUNDO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">SS-STATUS</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">LINE</span> <span class="nv">WS-NUML</span> <span class="kp">COLUMN</span> <span class="mi">2 </span><span class="kp">ERASE</span> <span class="kp">EOL</span> <span class="kt">PIC X(30)</span>
-<span class="kt">                 </span> <span class="kp">FROM</span> <span class="nv">WS-STATUS</span> <span class="kp">HIGHLIGHT </span>
-<span class="kp">                 </span> <span class="kp">FOREGROUND-COLOR</span> <span class="nv">COR-FRENTE</span>
-<span class="c">      </span>            <span class="kp">BACKGROUND-COLOR</span> <span class="nv">COR-FUNDO</span><span class="p">.</span>
-
-<span class="c">      </span> <span class="mi">01 </span><span class="nv">SS-MENU</span> <span class="kp">FOREGROUND-COLOR</span> <span class="mi">6</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">LINE</span> <span class="mi">07 </span><span class="kp">COLUMN</span> <span class="mi">15 </span><span class="kp">VALUE </span><span class="s2">&quot;1 - INCLUIR&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">LINE</span> <span class="mi">08 </span><span class="kp">COLUMN</span> <span class="mi">15 </span><span class="kp">VALUE </span><span class="s2">&quot;2 - CONSULTAR&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">LINE</span> <span class="mi">09 </span><span class="kp">COLUMN</span> <span class="mi">15 </span><span class="kp">VALUE </span><span class="s2">&quot;3 - ALTERAR&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">LINE</span> <span class="mi">10 </span><span class="kp">COLUMN</span> <span class="mi">15 </span><span class="kp">VALUE </span><span class="s2">&quot;4 - EXCLUIR&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">LINE</span> <span class="mi">11 </span><span class="kp">COLUMN</span> <span class="mi">15 </span><span class="kp">VALUE </span><span class="s2">&quot;X - ENCERRAR&quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">LINE</span> <span class="mi">13 </span><span class="kp">COLUMN</span> <span class="mi">15 </span><span class="kp">VALUE </span><span class="s2">&quot;OPÇÃO: &quot;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">LINE</span> <span class="mi">13 </span><span class="kp">COL</span> <span class="kp">PLUS</span> <span class="mi">1 </span><span class="kp">USING</span> <span class="nv">WS-OPCAO</span> <span class="kp">AUTO</span><span class="p">.</span>
-
-<span class="c">      </span> <span class="mi">01 </span><span class="nv">SS-TELA-REGISTRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">SS-CHAVE</span> <span class="kp">FOREGROUND-COLOR</span> <span class="mi">2</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">LINE</span> <span class="mi">10 </span><span class="kp">COLUMN</span> <span class="mi">10 </span><span class="kp">VALUE </span><span class="s2">&quot;TELEFONE:&quot;</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">COLUMN</span> <span class="kp">PLUS</span> <span class="mi">2 </span><span class="kt">PIC 9(09)</span> <span class="kp">USING</span> <span class="nv">FS-FONE</span>
-<span class="c">      </span>            <span class="kp">BLANK</span> <span class="kp">WHEN</span> <span class="no">ZEROS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="nv">SS-DADOS</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">LINE</span> <span class="mi">11 </span><span class="kp">COLUMN</span> <span class="mi">10 </span><span class="kp">VALUE </span><span class="s2">&quot;    NOME:&quot;</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">COLUMN</span> <span class="kp">PLUS</span> <span class="mi">2 </span><span class="kt">PIC X(40)</span> <span class="kp">USING</span> <span class="nv">FS-NOME</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">LINE</span> <span class="mi">12 </span><span class="kp">COLUMN</span> <span class="mi">10 </span><span class="kp">VALUE </span><span class="s2">&quot;ENDEREÇO:&quot;</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">COLUMN</span> <span class="kp">PLUS</span> <span class="mi">2 </span><span class="kt">PIC X(40)</span> <span class="kp">USING</span> <span class="nv">FS-ENDERECO</span><span class="p">.</span>
-
-<span class="c">      </span> <span class="mi">01 </span><span class="nv">SS-ERRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="mi">05 </span><span class="kp">FILLER</span> <span class="kp">FOREGROUND-COLOR</span> <span class="mi">4 </span><span class="kp">BACKGROUND-COLOR</span> <span class="mi">1 </span><span class="kp">HIGHLIGHT</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">LINE</span> <span class="nv">WS-NUML</span> <span class="kp">COLUMN</span> <span class="mi">2 </span><span class="kt">PIC X(80)</span> <span class="kp">FROM</span> <span class="nv">WS-MSGERRO</span> <span class="kp">BELL</span><span class="p">.</span>
-<span class="c">      </span>         <span class="mi">10 </span><span class="kp">COLUMN</span> <span class="kp">PLUS</span> <span class="mi">2 </span><span class="kp">TO</span> <span class="nv">WS-ERRO</span><span class="p">.</span>
-
-<span class="hll"><span class="c">      </span> <span class="kr">PROCEDURE</span> <span class="kr">DIVISION</span><span class="p">.</span>
-</span><span class="c">      </span> <span class="nv">INICIO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">SET</span> <span class="kr">ENVIRONMENT </span><span class="s1">&#39;COB_SCREEN_EXCEPTIONS&#39;</span> <span class="kp">TO </span><span class="s1">&#39;Y&#39;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">SET</span> <span class="kr">ENVIRONMENT </span><span class="s1">&#39;COB_SCREEN_ESC&#39;</span> <span class="kp">TO </span><span class="s1">&#39;Y&#39;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">SET</span> <span class="kr">ENVIRONMENT </span><span class="s1">&#39;ESCDELAY&#39;</span> <span class="kp">TO </span><span class="s1">&#39;25&#39;</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">ACCEPT</span> <span class="nv">WS-NUML</span> <span class="kp">FROM</span> <span class="kp">LINES</span>
-<span class="kp">          </span> <span class="kr">ACCEPT</span> <span class="nv">WS-NUMC</span> <span class="kp">FROM</span> <span class="kp">COLUMNS</span>
-<span class="kp">          </span> <span class="kr">PERFORM</span> <span class="nv">ABRIR-ARQUIVOS</span>
-<span class="c">      </span>     <span class="kr">PERFORM</span> <span class="kp">UNTIL</span> <span class="nv">E-ENCERRAR</span>
-<span class="c">      </span>         <span class="kr">MOVE </span><span class="s2">&quot;MENU&quot;</span> <span class="kp">TO</span> <span class="nv">WS-OP</span>
-<span class="c">      </span>         <span class="kr">MOVE </span><span class="s2">&quot;ESCOLHA A OPÇÃO&quot;</span> <span class="kp">TO</span> <span class="nv">WS-STATUS</span>
-<span class="c">      </span>         <span class="kr">MOVE</span> <span class="no">SPACES</span> <span class="kp">TO</span> <span class="nv">WS-OPCAO</span>
-<span class="c">      </span>         <span class="kr">DISPLAY</span> <span class="nv">SS-CLS</span>
-<span class="c">      </span>         <span class="kr">ACCEPT</span> <span class="nv">SS-MENU</span>
-<span class="c">      </span>         <span class="kr">EVALUATE</span> <span class="nb">TRUE</span>
-<span class="nb">                  </span> <span class="kp">WHEN</span> <span class="nv">E-INCLUIR</span>
-<span class="c">      </span>                 <span class="kr">PERFORM</span> <span class="nv">INCLUI</span> <span class="kp">THRU</span> <span class="nv">INCLUI-FIM</span>
-<span class="c">      </span>             <span class="kp">WHEN</span> <span class="nv">E-CONSULTAR</span>
-<span class="c">      </span>                 <span class="kr">PERFORM</span> <span class="nv">CONSULTA</span> <span class="kp">THRU</span> <span class="nv">CONSULTA-FIM</span>
-<span class="c">      </span>             <span class="kp">WHEN</span> <span class="nv">E-ALTERAR</span>
-<span class="c">      </span>                 <span class="kr">PERFORM</span> <span class="nv">ALTERA</span> <span class="kp">THRU</span> <span class="nv">ALTERA-FIM</span>
-<span class="c">      </span>             <span class="kp">WHEN</span> <span class="nv">E-EXCLUIR</span>
-<span class="c">      </span>                 <span class="kr">PERFORM</span> <span class="nv">EXCLUI</span> <span class="kp">THRU</span> <span class="nv">EXCLUI-FIM</span>
-<span class="c">      </span>         <span class="kr">END-EVALUATE</span>
-<span class="kr">          </span> <span class="kr">END-PERFORM</span><span class="p">.</span>
-<span class="c">      </span> <span class="nv">FINALIZA</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">CLOSE</span> <span class="nv">FILE1</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">STOP</span> <span class="kp">RUN</span><span class="p">.</span>
-
-<span class="c">      * -----------------------------------</span>
-<span class="c">      </span> <span class="nv">INCLUI</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;INCLUSÃO&quot;</span> <span class="kp">TO</span> <span class="nv">WS-OP</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;ESC PARA ENCERRAR&quot;</span> <span class="kp">TO</span> <span class="nv">WS-STATUS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-CLS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE</span> <span class="no">SPACES</span> <span class="kp">TO</span> <span class="nv">FILE1-REC</span><span class="p">.</span>
-<span class="c">      </span> <span class="nv">INCLUI-LOOP</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">ACCEPT</span> <span class="nv">SS-TELA-REGISTRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">IF</span> <span class="nv">COB-CRT-STATUS</span> <span class="o">=</span> <span class="nv">COB-SCR-ESC</span>
-<span class="c">      </span>         <span class="kr">GO</span> <span class="nv">INCLUI-FIM</span>
-<span class="c">      </span>     <span class="kr">END-IF</span>
-<span class="kr">          </span> <span class="kr">IF</span> <span class="nv">FS-NOME</span> <span class="ow">EQUAL</span> <span class="no">SPACES</span> <span class="ow">OR</span> <span class="nv">FS-ENDERECO</span> <span class="ow">EQUAL</span> <span class="no">SPACES</span>
-<span class="no">              </span> <span class="kr">MOVE </span><span class="s2">&quot;FAVOR INFORMAR NOME E ENDEREÇO&quot;</span> <span class="kp">TO</span> <span class="nv">WS-MSGERRO</span> 
-<span class="c">      </span>         <span class="kr">PERFORM</span> <span class="nv">MOSTRA-ERRO</span>
-<span class="c">      </span>         <span class="kr">GO</span> <span class="nv">INCLUI-LOOP</span>
-<span class="c">      </span>     <span class="kr">END-IF</span>
-<span class="kr">          </span> <span class="kr">WRITE</span> <span class="nv">FILE1-REC</span>
-<span class="c">      </span>     <span class="kp">INVALID</span> <span class="kp">KEY</span>
-<span class="kp">              </span> <span class="kr">MOVE </span><span class="s2">&quot;CLIENTE JÁ EXISTE&quot;</span> <span class="kp">TO</span> <span class="nv">WS-MSGERRO</span>
-<span class="c">      </span>         <span class="kr">PERFORM</span> <span class="nv">MOSTRA-ERRO</span>
-<span class="c">      </span>         <span class="kr">MOVE</span> <span class="no">ZEROS</span> <span class="kp">TO</span> <span class="nv">FS-KEY</span>
-<span class="c">      </span>     <span class="kr">END-WRITE</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">GO</span> <span class="nv">INCLUI</span><span class="p">.</span>    
-<span class="c">      </span> <span class="nv">INCLUI-FIM</span><span class="p">.</span>
-
-<span class="c">      * -----------------------------------</span>
-<span class="c">      </span> <span class="nv">CONSULTA</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;CONSULTA&quot;</span> <span class="kp">TO</span> <span class="nv">WS-OP</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;ESC PARA ENCERRAR&quot;</span> <span class="kp">TO</span> <span class="nv">WS-STATUS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-CLS</span><span class="p">.</span>
-<span class="c">      </span> <span class="nv">CONSULTA-LOOP</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE</span> <span class="no">SPACES</span> <span class="kp">TO</span> <span class="nv">FILE1-REC</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-TELA-REGISTRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">PERFORM</span> <span class="nv">LE-CLIENTE</span> <span class="kp">THRU</span> <span class="nv">LE-CLIENTE-FIM</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">IF</span> <span class="nv">FS-CANCELA</span>
-<span class="c">      </span>         <span class="kr">GO</span> <span class="nv">CONSULTA-FIM</span>
-<span class="c">      </span>     <span class="kr">END-IF</span>
-<span class="kr">          </span> <span class="kr">IF</span> <span class="nv">FS-OK</span>
-<span class="c">      </span>         <span class="kr">DISPLAY</span> <span class="nv">SS-DADOS</span>
-<span class="c">      </span>         <span class="kr">MOVE </span><span class="s2">&quot;PRESSIONE ENTER&quot;</span> <span class="kp">TO</span> <span class="nv">WS-MSGERRO</span>
-<span class="c">      </span>         <span class="kr">PERFORM</span> <span class="nv">MOSTRA-ERRO</span>
-<span class="c">      </span>     <span class="kr">END-IF</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">GO</span> <span class="nv">CONSULTA-LOOP</span><span class="p">.</span>
-<span class="c">      </span> <span class="nv">CONSULTA-FIM</span><span class="p">.</span>
-
-<span class="c">      * -----------------------------------</span>
-<span class="c">      </span> <span class="nv">ALTERA</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;ALTERAÇÃO&quot;</span> <span class="kp">TO</span> <span class="nv">WS-OP</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;ESC PARA ENCERRAR&quot;</span> <span class="kp">TO</span> <span class="nv">WS-STATUS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-CLS</span><span class="p">.</span>
-<span class="c">      </span> <span class="nv">ALTERA-LOOP</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE</span> <span class="no">SPACES</span> <span class="kp">TO</span> <span class="nv">FILE1-REC</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-TELA-REGISTRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">PERFORM</span> <span class="nv">LE-CLIENTE</span> <span class="kp">THRU</span> <span class="nv">LE-CLIENTE-FIM</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">IF</span> <span class="nv">FS-CANCELA</span>
-<span class="c">      </span>         <span class="kr">GO</span> <span class="kp">TO</span> <span class="nv">ALTERA-FIM</span>
-<span class="c">      </span>     <span class="kr">END-IF</span>
-<span class="kr">          </span> <span class="kr">IF</span> <span class="nv">FS-OK</span>
-<span class="c">      </span>         <span class="kr">ACCEPT</span> <span class="nv">SS-DADOS</span>
-<span class="c">      </span>         <span class="kr">IF</span> <span class="nv">COB-CRT-STATUS</span> <span class="o">=</span> <span class="nv">COB-SCR-ESC</span>
-<span class="c">      </span>             <span class="kr">GO</span> <span class="nv">ALTERA-LOOP</span>
-<span class="c">      </span>         <span class="kr">END-IF</span>
-<span class="kr">          </span> <span class="kr">ELSE</span>
-<span class="kr">              </span> <span class="kr">GO</span> <span class="nv">ALTERA-LOOP</span>
-<span class="c">      </span>      <span class="kr">END-IF</span>
-<span class="kr">           </span> <span class="kr">REWRITE</span> <span class="nv">FILE1-REC</span>
-<span class="c">      </span>          <span class="kp">INVALID</span> <span class="kp">KEY</span>
-<span class="kp">                   </span> <span class="kr">MOVE </span><span class="s2">&quot;ERRO AO GRAVAR&quot;</span> <span class="kp">TO</span> <span class="nv">WS-MSGERRO</span>
-<span class="c">      </span>              <span class="kr">PERFORM</span> <span class="nv">MOSTRA-ERRO</span>
-<span class="c">      </span>          <span class="ow">NOT</span> <span class="kp">INVALID</span> <span class="kp">KEY</span>
-<span class="kp">                   </span> <span class="kr">CONTINUE</span>
-<span class="kr">           </span> <span class="kr">END-REWRITE</span><span class="p">.</span>
-<span class="c">      </span>      <span class="kr">GO</span> <span class="nv">ALTERA-LOOP</span><span class="p">.</span>
-<span class="c">      </span> <span class="nv">ALTERA-FIM</span><span class="p">.</span>
-
-<span class="c">      * -----------------------------------</span>
-<span class="c">      </span> <span class="nv">EXCLUI</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;EXCLUSÃO&quot;</span> <span class="kp">TO</span> <span class="nv">WS-OP</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;ESC PARA ENCERRAR&quot;</span> <span class="kp">TO</span> <span class="nv">WS-STATUS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-CLS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE</span> <span class="no">SPACES</span> <span class="kp">TO</span> <span class="nv">FILE1-REC</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-TELA-REGISTRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">PERFORM</span> <span class="nv">LE-CLIENTE</span> <span class="kp">THRU</span> <span class="nv">LE-CLIENTE-FIM</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">IF</span> <span class="nv">FS-CANCELA</span>
-<span class="c">      </span>         <span class="kr">GO</span> <span class="nv">EXCLUI-FIM</span>
-<span class="c">      </span>     <span class="kr">END-IF</span>
-<span class="kr">          </span> <span class="kr">IF</span> <span class="ow">NOT</span> <span class="nv">FS-OK</span>
-<span class="c">      </span>         <span class="kr">GO</span> <span class="nv">EXCLUI</span>
-<span class="c">      </span>     <span class="kr">END-IF</span>
-<span class="kr">          </span> <span class="kr">DISPLAY</span> <span class="nv">SS-DADOS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;N&quot;</span> <span class="kp">TO</span> <span class="nv">WS-ERRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;CONFIRMA A EXCLUSÃO DO CLIENTE (S/N)?&quot;</span> <span class="kp">TO</span> <span class="nv">WS-MSGERRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">ACCEPT</span> <span class="nv">SS-ERRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">IF</span> <span class="ow">NOT</span> <span class="nv">E-SIM</span>
-<span class="c">      </span>         <span class="kr">GO</span> <span class="nv">EXCLUI-FIM</span>
-<span class="c">      </span>     <span class="kr">END-IF</span>
-<span class="kr">          </span> <span class="kr">DELETE</span> <span class="nv">FILE1</span>
-<span class="c">      </span>         <span class="kp">INVALID</span> <span class="kp">KEY</span>
-<span class="kp">                  </span> <span class="kr">MOVE </span><span class="s2">&quot;ERRO AO EXCLUIR&quot;</span> <span class="kp">TO</span> <span class="nv">WS-MSGERRO</span>
-<span class="c">      </span>             <span class="kr">PERFORM</span> <span class="nv">MOSTRA-ERRO</span>
-<span class="c">      </span>     <span class="kr">END-DELETE</span><span class="p">.</span>
-<span class="c">      </span> <span class="nv">EXCLUI-FIM</span><span class="p">.</span>
-
-<span class="c">      * -----------------------------------</span>
-<span class="c">      * LE CLIENTE E MOSTRA MENSAGEM SE CHAVE NÃO EXISTE</span>
-<span class="c">      </span> <span class="nv">LE-CLIENTE</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">ACCEPT</span> <span class="nv">SS-CHAVE</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">IF</span> <span class="ow">NOT</span> <span class="nv">COB-CRT-STATUS</span> <span class="o">=</span> <span class="nv">COB-SCR-ESC</span>
-<span class="c">      </span>         <span class="kr">READ</span> <span class="nv">FILE1</span>
-<span class="c">      </span>             <span class="kp">INVALID</span> <span class="kp">KEY</span>
-<span class="kp">                      </span> <span class="kr">MOVE </span><span class="s2">&quot;CLIENTE NÃO ENCONTRADO&quot;</span> <span class="kp">TO</span> <span class="nv">WS-MSGERRO</span>
-<span class="c">      </span>                 <span class="kr">PERFORM</span> <span class="nv">MOSTRA-ERRO</span>
-<span class="c">      </span>         <span class="kr">END-READ</span>
-<span class="kr">          </span> <span class="kr">ELSE</span>
-<span class="kr">              </span> <span class="kr">MOVE</span> <span class="mi">99 </span><span class="kp">to</span> <span class="nv">FS-STAT</span>
-<span class="c">      </span>     <span class="kr">END-IF</span><span class="p">.</span>
-<span class="c">      </span> <span class="nv">LE-CLIENTE-FIM</span><span class="p">.</span>           
-
-<span class="c">      * -----------------------------------</span>
-<span class="c">      * ABRE ARQUIVOS PARA ENTRADA E SAÍDA</span>
-<span class="c">      </span> <span class="nv">ABRIR-ARQUIVOS</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">OPEN</span> <span class="kp">I-O</span> <span class="nv">FILE1</span>
-<span class="c">      </span>     <span class="kr">IF</span> <span class="nv">FS-NAO-EXISTE</span> <span class="kr">THEN</span>
-<span class="kr">              </span> <span class="kr">OPEN</span> <span class="kp">OUTPUT</span> <span class="nv">FILE1</span>
-<span class="c">      </span>         <span class="kr">CLOSE</span> <span class="nv">FILE1</span>
-<span class="c">      </span>         <span class="kr">OPEN</span> <span class="kp">I-O</span> <span class="nv">FILE1</span>
-<span class="c">      </span>     <span class="kr">END-IF</span><span class="p">.</span>
-
-<span class="c">      * -----------------------------------</span>
-<span class="c">      * MOSTRA MENSAGEM, ESPERA ENTER, ATUALIZA BARRA STATUS</span>
-<span class="c">      </span> <span class="nv">MOSTRA-ERRO</span><span class="p">.</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-ERRO</span>
-<span class="c">      </span>     <span class="kr">ACCEPT</span> <span class="nv">SS-ERRO</span>
-<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">SS-STATUS</span><span class="p">.</span>
+                <h1 id="cobol">COBOL</h1>
+<p>COBOL - COmmon Business Oriented Language (1959) ainda é utilizada até hoje. Atendia e atende, os aspectos planejados. Uma linguagem para um ambiente comercial e que fosse legível até por um leigo. Tem sua estrutura bem dividida como uma parte destinada a identificação do programa, uma ao equipamento, outra aos dados utilizados pelo programa e, finalmente o programa propriamente dito.</p>
+<h2 id="verbosidade">Verbosidade</h2>
+<p>A verbosidade tinha o intuito de deixar a linguagem legível para leigos. Se você olhar o fonte de um programa escrito em 1960, é bem provável que você entenda o que ele faz mesmo não sabendo COBOL. </p>
+<h2 id="bd">BD</h2>
+<p>Uma das vantagens de COBOL é que a base de dados fazia parte da linguagem o que era fundamental para aplicações comerciais. Imagine uma contabilidade, folha de pagamento e outras sem algo para manipular a grande quantidade de dados. Futuramente surgiram dBase, Clipper e outras. </p>
+<h2 id="endentacao">Endentação</h2>
+<p>Era pouco e por outros motivos, mas já exigia uma certa endentação.</p>
+<ul>
+<li>colunas 1 a 6 :branco (será preenchido com a numeração COBOL)</li>
+<li>coluna 7<ul>
+<li>(branco) LINHA DE CODIFICAÇÃO</li>
+<li>
+<ul>
+<li>(asterisco) linha de comentário</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>(hífen) continuação de literal não numérico</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>colunas 8 a 72 : instruções do COBOL</li>
+</ul>
+<h2 id="nomes-condicionais">Nomes condicionais</h2>
+<p>A parte de estruturas de dados utilizadas para armazenar variáveis era a que mais brilhava, podendo ter estruturas complexas com uma fácil visualização e manipulação. O nível 88 era reservado para nomes condicionais. </p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-SEXO</span> <span class="kt">PIC X</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">MASCULINO</span>   <span class="kp">VALUE</span> <span class="kp">IS </span><span class="s2">&quot;M&quot;</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">FEMININO</span>    <span class="kp">VALUE</span> <span class="kp">IS </span><span class="s2">&quot;F&quot;</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">OUTROS</span>      <span class="kp">VALUE</span> <span class="kp">IS </span><span class="s2">&quot;O&quot;</span><span class="p">.</span>
+<span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-UF</span> <span class="kt">PIC XX</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">REGIAO-NORTE</span>       <span class="kp">VALUES </span><span class="s2">&quot;AC&quot;</span> <span class="s2">&quot;AM&quot;</span> <span class="s2">&quot;RO&quot;</span> <span class="s2">&quot;RR&quot;</span> <span class="s2">&quot;AP&quot;</span> <span class="s2">&quot;PA&quot;</span> <span class="s2">&quot;TO&quot;</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">REGIAO-SUL</span>         <span class="kp">VALUES </span><span class="s2">&quot;RS&quot;</span> <span class="s2">&quot;SC&quot;</span> <span class="s2">&quot;PR&quot;</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">REGIAO-CENTRO</span>      <span class="kp">VALUES </span><span class="s2">&quot;MT&quot;</span> <span class="s2">&quot;MS&quot;</span> <span class="s2">&quot;GO&quot;</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">REGIAO-NORDESTE</span>    <span class="kp">VALUES </span><span class="s2">&quot;MA&quot;</span> <span class="s2">&quot;PI&quot;</span> <span class="s2">&quot;CE&quot;</span> <span class="s2">&quot;RN&quot;</span> <span class="s2">&quot;PB&quot;</span> <span class="s2">&quot;PE&quot;</span> <span class="s2">&quot;AL&quot;</span> <span class="s2">&quot;SE&quot;</span> <span class="s2">&quot;BA&quot;</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">REGIAO-SUDESTE</span>     <span class="kp">VALUES </span><span class="s2">&quot;SP&quot;</span> <span class="s2">&quot;MG&quot;</span> <span class="s2">&quot;ES&quot;</span> <span class="s2">&quot;RJ&quot;</span><span class="p">.</span>
+<span class="c">      </span> <span class="mi">77 </span><span class="nv">WS-IDADE</span> <span class="kt">PIC 9(03)</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">INFANTIL</span>    <span class="kp">VALUE </span> <span class="mi">0 </span><span class="kp">THRU</span> <span class="mi">11</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">ADOLESCENTE</span> <span class="kp">VALUE</span> <span class="mi">12 </span><span class="kp">THRU</span> <span class="mi">20</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">ADULTO</span>      <span class="kp">VALUE</span> <span class="mi">21 </span><span class="kp">THRU</span> <span class="mi">74</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">88 </span><span class="nv">VELHO</span>       <span class="kp">VALUE</span> <span class="mi">21 </span><span class="kp">THRU</span> <span class="mi">74</span><span class="p">.</span>
 </code></pre></div>
 </td></tr></table>
+<p>Em vez de testes com <code>IF WS-IDADE &gt;= 12 AND WS-IDADE &lt;= 20 THEN</code> bastava utiliza <code>IF ADOLESCENTE THEN</code>. Ou algo como <code>IF REGIAO-SUL THEN MOVE 20 TO WS_FRETE.</code>.</p>
+<p>Ah, mas a minha linguagem tem algo parecido. Certo. Foi baseado em uma linguagem que existia antes de você ter nascido. </p>
+<p>Outro aspecto interessante é a utilização do espaço como delimitador natural. A maioria das linguagens atuais de <strong>alto nível</strong> exigem que você coloque vírgula ou outro delimitador para separa os itens de uma lista.</p>
+<p>Note que também já era possível especificar faixas de valores como <code>12 THRU 20</code>.</p>
+<h2 id="compartilhamento-de-memoria">Compartilhamento de memória</h2>
+<p>Se a sua linguagem tem (mas é mais feio de usar), já existia há tempo. É um recurso interessante e não apenas pela capacidade limitada dos computadores antigos. Existem casos como CGC e CPF que podem ocupar o mesmo espaço. </p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c">      </span>  <span class="kr">IDENTIFICATION</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">PROGRAM-ID</span><span class="p">.</span> <span class="kp">redefines</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">DATA</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">WORKING-STORAGE</span> <span class="kr">SECTION</span><span class="p">.</span>
+<span class="c">      </span>  <span class="mi">01 </span><span class="nv">WS-CPF</span> <span class="kt">PIC X(11)</span><span class="p">.</span>
+<span class="c">      </span>  <span class="mi">01 </span><span class="nv">WS-CPFR</span> <span class="kp">REDEFINES</span> <span class="nv">WS-CPF</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">05 </span><span class="nv">WS-CPF-NUM</span> <span class="kt">PIC 9(9)</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">05 </span><span class="nv">WS-CPF-CTL</span> <span class="kt">PIC 9(2)</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">PROCEDURE</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>     <span class="kr">MOVE </span><span class="s2">&quot;11122255577&quot;</span> <span class="kp">TO</span> <span class="nv">WS-CPF</span><span class="p">.</span>
+<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">WS-CPF</span><span class="p">.</span>
+<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">WS-CPF-NUM</span><span class="p">.</span>
+<span class="c">      </span>     <span class="kr">DISPLAY</span> <span class="nv">WS-CPF-CTL</span><span class="p">.</span>
+<span class="c">      </span>     <span class="kr">STOP</span> <span class="kp">RUN</span><span class="p">.</span>
+</code></pre></div>
+</td></tr></table>
+<p>Saída:</p>
+<div class="highlight"><pre><span></span><code><span class="m">11122255577</span>
+<span class="m">111222555</span>
+<span class="m">77</span>
+</code></pre></div>
+<h2 id="campos-iguais-de-registros-diferentes">Campos iguais de registros diferentes</h2>
+<p>Tendo dois records com estrutura semelhante, permite operações como soma, subtração ou mover dados com o mesmo nome. No exempo abaixo, <code>WS-DATA1</code> e <code>WS-DATA2</code> compartilham dos campos <code>A</code> e <code>C</code>. As operações ocorrem apenas sobre os dois campos compartilhados. Note novamente a utilização de espaços como delimitador nas linhas de 23 e 25, mesmo usando o <code>IN</code> para desambiguar os campos <code>A</code> e <code>C</code>. Aquela vírgula supérflua só é utilizada por peguiça de quem fez o compilador.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c">      </span>  <span class="kr">IDENTIFICATION</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">PROGRAM-ID</span><span class="p">.</span> <span class="kp">CORRESPONDING</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">DATA</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">WORKING-STORAGE</span> <span class="kr">SECTION</span><span class="p">.</span>
+<span class="hll"><span class="c">      </span>  <span class="mi">01 </span><span class="nv">WS-DATA1</span><span class="p">.</span>
+</span><span class="c">      </span>     <span class="mi">05 </span><span class="nv">A</span>     <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">2</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">05 </span><span class="nv">B</span>     <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">2</span><span class="p">.</span>
+<span class="c">      </span>     <span class="mi">05 </span><span class="nv">C</span>     <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">2</span><span class="p">.</span>
+<span class="hll"><span class="c">      </span>  <span class="mi">01 </span><span class="nv">WS-DATA2</span><span class="p">.</span>
+</span><span class="c">      </span>     <span class="mi">05 </span><span class="nv">A</span>     <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">5</span><span class="p">.</span>
+<span class="hll"><span class="c">      </span>     <span class="mi">05 </span><span class="nv">X</span>     <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">5</span><span class="p">.</span>
+</span><span class="c">      </span>     <span class="mi">05 </span><span class="nv">C</span>     <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">5</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">PROCEDURE</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">PERFORM</span> <span class="nv">MOSTRA</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">ADD</span> <span class="kp">CORRESPONDING</span> <span class="nv">WS-DATA1</span> <span class="kp">TO</span> <span class="nv">WS-DATA2</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">PERFORM</span> <span class="nv">MOSTRA</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">MOVE</span> <span class="kp">CORRESPONDING</span> <span class="nv">WS-DATA1</span> <span class="kp">TO</span> <span class="nv">WS-DATA2</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">PERFORM</span> <span class="nv">MOSTRA</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">STOP</span> <span class="kp">RUN</span><span class="p">.</span>
+
+<span class="c">      </span>  <span class="nv">MOSTRA</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">DISPLAY </span><span class="s2">&quot;DATA2&quot;</span><span class="p">.</span>
+<span class="hll"><span class="c">      </span>      <span class="kr">DISPLAY </span><span class="s2">&quot;A = &quot;</span> <span class="nv">A</span> <span class="kp">IN</span> <span class="nv">WS-DATA2</span><span class="p">.</span>
+</span><span class="c">      </span>      <span class="kr">DISPLAY </span><span class="s2">&quot;X = &quot;</span> <span class="nv">X</span><span class="p">.</span>
+<span class="hll"><span class="c">      </span>      <span class="kr">DISPLAY </span><span class="s2">&quot;C = &quot;</span> <span class="nv">C</span> <span class="kp">IN</span> <span class="nv">WS-DATA2</span><span class="p">.</span>
+</span><span class="c">      </span>  <span class="nv">MOSTRA-FIM</span><span class="p">.</span>
+</code></pre></div>
+</td></tr></table>
+<p>Saída:</p>
+<div class="highlight"><pre><span></span><code>DATA2
+<span class="nv">A</span> <span class="o">=</span> <span class="m">5</span>
+<span class="nv">X</span> <span class="o">=</span> <span class="m">5</span>
+<span class="nv">C</span> <span class="o">=</span> <span class="m">5</span>
+DATA2
+<span class="nv">A</span> <span class="o">=</span> <span class="m">7</span>
+<span class="nv">X</span> <span class="o">=</span> <span class="m">5</span>
+<span class="nv">C</span> <span class="o">=</span> <span class="m">7</span>
+DATA2
+<span class="nv">A</span> <span class="o">=</span> <span class="m">2</span>
+<span class="nv">X</span> <span class="o">=</span> <span class="m">5</span>
+<span class="nv">C</span> <span class="o">=</span> <span class="m">2</span>
+</code></pre></div>
+<h2 id="lacos">Laços</h2>
+<p>O COBOL tem o <code>PERFORM</code> que faz tudo, eliminando o <code>gosub</code> (veja o PERFORM no exemplo anterior), <code>for</code>, <code>while</code>, <code>repeat</code>, <code>until</code> e mais alguma outra que linguagens modernas possam ter. Beads tem uma estrutura parecida.</p>
+<h3 id="repeat">REPEAT</h3>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c">      </span>      <span class="kr">PERFORM</span> <span class="mi">4 </span><span class="kp">TIMES</span>
+<span class="kp">               </span> <span class="kr">DISPLAY </span><span class="s2">&quot;NO LAÇO&quot;</span>
+<span class="c">      </span>      <span class="kr">END-PERFORM</span><span class="p">.</span>
+</code></pre></div>
+</td></tr></table>
+<h3 id="for">FOR</h3>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c">      </span>      <span class="kr">PERFORM</span> <span class="kp">VARYING</span> <span class="nv">WS-IX</span> <span class="kp">FROM</span> <span class="mi">1 </span><span class="kp">BY</span> <span class="mi">1 </span><span class="kp">UNTIL</span> <span class="nv">WS-IX</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="mi">                </span><span class="kr">DISPLAY</span> <span class="nv">WS-IX</span>
+<span class="c">      </span>      <span class="kr">END-PERFORM</span><span class="p">.</span>
+</code></pre></div>
+</td></tr></table>
+<h4 id="for-after">FOR AFTER</h4>
+<p>Multidimensional</p>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c">      </span>  <span class="kr">IDENTIFICATION</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">PROGRAM-ID</span><span class="p">.</span> <span class="kp">CORRESPONDING</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">DATA</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>  <span class="kr">WORKING-STORAGE</span> <span class="kr">SECTION</span><span class="p">.</span>
+<span class="c">      </span>  <span class="mi">01 </span><span class="nv">WS-IX</span>    <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">0</span><span class="p">.</span>
+<span class="c">      </span>  <span class="mi">01 </span><span class="nv">WS-IY</span>    <span class="kt">PIC 9</span> <span class="kp">VALUE</span> <span class="mi">0</span><span class="p">.</span>
+
+<span class="c">      </span>  <span class="kr">PROCEDURE</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">PERFORM</span> <span class="kp">VARYING</span> <span class="nv">WS-IX</span> <span class="kp">FROM</span> <span class="mi">1 </span><span class="kp">BY</span> <span class="mi">1 </span><span class="kp">UNTIL</span> <span class="nv">WS-IX</span> <span class="o">&gt;</span> <span class="mi">2</span>
+<span class="mi">                    </span><span class="kp">AFTER</span> <span class="nv">WS-IY</span> <span class="kp">FROM</span> <span class="mi">1 </span><span class="kp">BY</span> <span class="mi">1 </span><span class="kp">UNTIL</span> <span class="nv">WS-IY</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">,</span>
+<span class="c">      </span>          <span class="kr">DISPLAY </span><span class="s2">&quot;IX: &quot;</span> <span class="nv">WS-IX</span> <span class="s2">&quot; IY: &quot;</span> <span class="nv">WS-IY</span>
+<span class="c">      </span>      <span class="kr">END-PERFORM</span><span class="p">;</span>
+<span class="c">      </span>      <span class="kr">STOP</span> <span class="kp">RUN</span><span class="p">.</span>
+</code></pre></div>
+</td></tr></table>
+Resulta em:</p>
+<div class="highlight"><pre><span></span><code>IX: <span class="m">1</span> IY: <span class="m">1</span>
+IX: <span class="m">1</span> IY: <span class="m">2</span>
+IX: <span class="m">2</span> IY: <span class="m">1</span>
+IX: <span class="m">2</span> IY: <span class="m">2</span>
+</code></pre></div>
+<h3 id="while-repeat">WHILE REPEAT</h3>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c">      </span>  <span class="kr">PROCEDURE</span> <span class="kr">DIVISION</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">MOVE</span> <span class="mi">0 </span><span class="kp">TO</span> <span class="nv">WS-IX</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">PERFORM</span> <span class="nv">MOSTRA</span>
+<span class="c">      </span>          <span class="kp">WITH</span> <span class="kp">TEST</span> <span class="kp">BEFORE</span> <span class="kp">UNTIL</span> <span class="nv">WS-IX</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">MOVE</span> <span class="mi">0 </span><span class="kp">TO</span> <span class="nv">WS-IX</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">PERFORM</span> <span class="nv">MOSTRA</span>
+<span class="c">      </span>          <span class="kp">WITH</span> <span class="kp">TEST</span> <span class="kp">AFTER</span> <span class="kp">UNTIL</span> <span class="nv">WS-IX</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">STOP</span> <span class="kp">RUN</span><span class="p">.</span>
+
+<span class="c">      </span>  <span class="nv">MOSTRA</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">DISPLAY</span> <span class="nv">WS-IX</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">ADD</span> <span class="mi">1 </span><span class="kp">TO</span> <span class="nv">WS-IX</span><span class="p">.</span>
+<span class="c">      </span>      <span class="kr">EXIT</span><span class="p">.</span>
+</code></pre></div>
+</td></tr></table>
+<p>Basicamente, com  <code>WITH TEST BEFORE</code> funciona como um <code>WHILE..END</code> e com <code>WITH TEST AFTER</code> funciona com um <code>REPEAT..UNTIL</code>.</p>
+<p>Pessoalmente, gosto de estruturas flexiveis como esta. Outra muito interessante é o loop de Beads (assunto para mais tarde).</p>
                 
               
               
